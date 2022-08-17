@@ -12,7 +12,7 @@ import asyncio
 from logger import logg
 
 
-TOKEN = "MTAwNjE2OTU0NTk2ODQ1OTg4Ng.Gd2HTu.mvwI368Xpk6ZLnFnuTS4jAwMjWoAPLTNVm4JAs"
+TOKEN = "your_token"
 bot = commands.Bot(command_prefix=">")
 
 bot.remove_command('help')
