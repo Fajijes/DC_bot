@@ -1,0 +1,17 @@
+INFO:                                                  2022-08-17 | 17:41:16 |                           Start program
+INFO:                                                  2022-08-17 | 17:42:29 |                           Start program
+INFO:                                                  2022-08-17 | 17:42:44 |                           Start program
+INFO:                                                  2022-08-17 | 17:43:12 |                           Start program
+INFO:                                                  2022-08-17 | 17:43:44 |                           Start program
+INFO:                                                  2022-08-17 | 17:44:37 |                           Start program
+INFO:                                                  2022-08-17 | 17:45:40 |                           Start program
+INFO:                                                  2022-08-17 | 17:48:55 |                           Start program
+INFO:                                                  2022-08-17 | 17:51:36 |                           Start program
+INFO:                                                  2022-08-17 | 17:53:09 |                           Start program
+INFO:                                                  2022-08-17 | 17:57:48 |                           Start program
+INFO:                                                  2022-08-17 | 18:02:42 |                           Start program
+INFO:                                                  2022-08-17 | 18:04:51 |                           Start program
+INFO:                                                  2022-08-17 | 18:07:12 |                           Start program
+INFO:                                                  2022-08-17 | 18:08:52 |                           Start program
+Add link by yekishay#5975:                             2022-08-17 | 18:09:00 |                           Input data: https://www.youtube.com/watch?v=N5B1-ym4538
+stop command by yekishay#5975:                         2022-08-17 | 18:10:42 |                           stop song

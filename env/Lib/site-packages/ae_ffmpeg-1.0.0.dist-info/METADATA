@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: ae-ffmpeg
+Version: 1.0.0
+Summary: Static FFmpeg binaries for Auto-Editor
+Home-page: https://auto-editor.com
+Author: WyattBlue
+Author-email: wyattblue@auto-editor.com
+License: LGPLv3
+Project-URL: Bug Tracker, https://github.com/WyattBlue/auto-editor/issues
+Project-URL: Source Code, https://github.com/WyattBlue/auto-editor
+Keywords: video audio media
+Platform: UNKNOWN
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# AE-FFmpeg
+Static FFmpeg and FFprobe binaries for use with Auto-Editor.
+
+## Install
+```
+pip install ae-ffmpeg
+```
+
+## Copyright
+THe FFmpeg/FFprobe binaires used are under the LGPLv3. Only libraries that are compatible with the LGPLv3 are included.
+
+## How to Compile on MacOS
+Use https://github.com/WyattBlue/ffmpeg-build-script/
+
+## How to Compile on Windows
+I use https://github.com/m-ab-s/media-autobuild_suite to compile on Windows.
+
+## Is There a Linux Build?
+Linux distros generally already ship ffmpeg, so having another ffmpeg would be redundant.
+
+## MacOS flags
+```
+--enable-videotoolbox --enable-libdav1d --enable-libvpx --enable-libzimg --enable-libmp3lame --enable-libopus --enable-libvorbis --disable-debug --disable-doc --disable-shared --disable-network --disable-indevs --disable-outdevs --disable-sdl2 --disable-xlib --disable-ffplay --enable-pthreads --enable-static --enable-version3 --extra-cflags=-I/Users/wyattblue/projects/ffmpeg-build-script/workspace/include --extra-ldexeflags= --extra-ldflags=-L/Users/wyattblue/projects/ffmpeg-build-script/workspace/lib --extra-libs='-ldl -lpthread -lm -lz' --pkgconfigdir=/Users/wyattblue/projects/ffmpeg-build-script/workspace/lib/pkgconfig --pkg-config-flags=--static --prefix=/Users/wyattblue/projects/ffmpeg-build-script/workspace --extra-version=5.0.1
+``` 
+
+

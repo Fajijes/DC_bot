@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+libavwrapper/__init__.py
+libavwrapper/avconv.py
+libavwrapper/codec.py
+libavwrapper/filter.py
+libavwrapper/parameters.py
+pypi_libavwrapper.egg-info/PKG-INFO
+pypi_libavwrapper.egg-info/SOURCES.txt
+pypi_libavwrapper.egg-info/dependency_links.txt
+pypi_libavwrapper.egg-info/top_level.txt
